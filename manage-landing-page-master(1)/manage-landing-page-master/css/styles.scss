@@ -27,7 +27,7 @@ nav {
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 60%;
     li {
         list-style: none;
         margin-top: 30px;
@@ -135,7 +135,85 @@ nav {
 }
 
 //-------------------------------top-------------------------------------------------
+#top {
+    align-items: center;
+    text-align: center;
+    .btn {
+        background-color: $bright-red;
+        color: white;
+        border-radius: 25px;
+        align-items: center;
+        margin: 10% 0;
+    }
+    .introductionIm {
+        width: 100%;
+    }
+}
+
+h1 {
+    padding: 5% 10% 5% 0;
+    font-weight: $weight-bold;
+    font-family: $font-family;
+}
+
 //-------------------------------features------------------------------------------
+#features {
+    align-items: center;
+    align-content: center;
+    .contmiddle {
+        padding-left: 30px;
+    }
+    @media screen and (max-width:768px) {
+        .contmiddle {
+            margin: auto 4%;
+        }
+        .col-features {
+            padding: 1% 8% 1% 0;
+        }
+    }
+    .col-features {
+        padding: 1% 5% 1% 0;
+    }
+    .title-row {
+        padding: 5% 10% 3% 0;
+    }
+    .btn {
+        background-color: $bright-red;
+        color: white;
+        border-radius: 25px;
+        align-items: center;
+    }
+}
+
+h4 {
+    margin: 0 10px;
+    font-family: $font-family;
+}
+
+h5 {
+    color: $dark-gray-blue;
+    line-height: 2rem;
+    font-weight: $weight-normal;
+}
+
 //------------------------------testimonials-----------------------------------------
+.cont-opinions {
+    align-items: center;
+    padding: 50px 15% 50px 15%;
+    text-align: center;
+    .title-weight-bold {
+        font-weight: $weight-bold;
+    }
+    .text-font {
+        font-family: $font-family;
+    }
+    .name-weight {
+        font-weight: $font-family;
+    }
+    .name-pad {
+        padding: 15px 0;
+    }
+}
+
 //----------------------------------cta---------------------------------------------
 //---------------------------------footer-------------------------------------------

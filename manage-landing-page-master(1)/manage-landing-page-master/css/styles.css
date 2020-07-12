@@ -15,7 +15,7 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 60%;
 }
 
 .nav-links li {
@@ -126,4 +126,93 @@ nav {
 
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
+}
+
+#top {
+  align-items: center;
+  text-align: center;
+}
+
+#top .btn {
+  background-color: #f25f3a;
+  color: white;
+  border-radius: 25px;
+  align-items: center;
+  margin: 10% 0;
+}
+
+#top .introductionIm {
+  width: 100%;
+}
+
+h1 {
+  padding: 5% 10% 5% 0;
+  font-weight: 700;
+  font-family: "Be Vietnam", sans-serif;
+}
+
+#features {
+  align-items: center;
+  align-content: center;
+}
+
+#features .contmiddle {
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  #features .contmiddle {
+    margin: auto 4%;
+  }
+  #features .col-features {
+    padding: 1% 8% 1% 0;
+  }
+}
+
+#features .col-features {
+  padding: 1% 5% 1% 0;
+}
+
+#features .title-row {
+  padding: 5% 10% 3% 0;
+}
+
+#features .btn {
+  background-color: #f25f3a;
+  color: white;
+  border-radius: 25px;
+  align-items: center;
+}
+
+h4 {
+  margin: 0 10px;
+  font-family: "Be Vietnam", sans-serif;
+}
+
+h5 {
+  color: #9095a7;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+.cont-opinions {
+  align-items: center;
+  padding: 50px 15% 50px 15%;
+  text-align: center;
+}
+
+.cont-opinions .title-weight-bold {
+  font-weight: 700;
+}
+
+.cont-opinions .text-font {
+  font-family: "Be Vietnam", sans-serif;
+}
+
+.cont-opinions .name-weight {
+  font-weight: "Be Vietnam", sans-serif;
+}
+
+.cont-opinions .name-pad {
+  padding: 15px 0;
 }
